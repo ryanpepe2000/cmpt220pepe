@@ -5,7 +5,7 @@ public class Problem7 {
 		int count = 1;
 		
 		// Loops from 1 to 50 calculating the pentagonal number for each digit.
-		for (int i = 1; i < 50; i++) {
+		for (int i = 1; i < 51; i++) {
 			System.out.printf("%-8d", pentagonalNumber(i));
 			if (count % 10 == 0)
 				System.out.println();
