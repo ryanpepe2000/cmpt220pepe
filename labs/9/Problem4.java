@@ -18,7 +18,7 @@ public class Problem4 {
 		while (input.hasNext()) {
 			String line = input.nextLine();
 			pw.println(line.replaceAll(args[0], ""));
-			infile.delete();
+			infile.delete(); // JA: If you delete the file here, you cannot read it any longer
 			outfile.renameTo(infile);
 		}
 		
